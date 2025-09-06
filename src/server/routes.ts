@@ -4,7 +4,7 @@ import { storage } from "./storage";
 import { YouTubeService } from "./services/youtube";
 import { CommentAnalyzer } from "./services/analyzer";
 import { Trie } from "./services/trie";
-import { analyzeVideoSchema, searchCommentsSchema } from "@shared/schema";
+import { analyzeVideoSchema, searchCommentsSchema } from "src/server/schema";
 
 // Global trie instances for fast search (indexed by videoId)
 const videoTries = new Map<string, Trie>();

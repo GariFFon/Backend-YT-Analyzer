@@ -1,4 +1,4 @@
-import { type Video, type InsertVideo, type Comment, type InsertComment, type Analysis, type InsertAnalysis } from "@shared/schema";
+import { type Video, type InsertVideo, type Comment, type InsertComment, type Analysis, type InsertAnalysis } from "src/server/schema";
 import { randomUUID } from "crypto";
 
 export interface IStorage {

@@ -1,4 +1,4 @@
-import { Comment, InsertComment } from "@shared/schema";
+import { Comment, InsertComment } from "src/server/schema";
 import { OpenRouterService } from "./openrouter";
 
 interface WordCount {
